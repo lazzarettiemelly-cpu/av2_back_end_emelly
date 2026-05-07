@@ -7,15 +7,15 @@ app.use(express.json());
 
 // Banco de dados em memória com exemplos
 let filmes = [
-{ id: 1, titulo: "Desventuras em Série", genero: "Suspense", ano_lancamento: 2004 },
-{ id: 2, titulo: "O Último Mestre do Ar", genero: "Ação", ano_lancamento: 2010 },
-{ id: 3, titulo: "Meu Amigo Totoro", genero: "Animação", ano_lancamento: 1995 }
+{ id: 1, titulo: "Shadowhunters", genero: "Drama", ano_lancamento: 2016 },
+{ id: 2, titulo: "Heartstopper", genero: "Romance", ano_lancamento: 2022 },
+{ id: 3, titulo: "Steven Universo", genero: "Aventura", ano_lancamento: 2013 }
 ];
 
 let usuarios = [
-{ id: 1, nome: "Maria Silva", email: "maria@email.com", plano: "Premium" },
-{ id: 2, nome: "João Souza", email: "joao@email.com", plano: "Básico" },
-{ id: 3, nome: "Ana Costa", email: "ana@email.com", plano: "Premium" }
+{ id: 1, nome: "Luna Lazza", email: "luna@email.com", plano: "Premium" },
+{ id: 2, nome: "Aurora Souza", email: "aurora@email.com", plano: "Básico" },
+{ id: 3, nome: "Estella", email: "estella@email.com", plano: "Premium" }
 ];
 
 let favoritos = [
